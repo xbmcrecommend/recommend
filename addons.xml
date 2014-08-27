@@ -14,71 +14,26 @@
 	<description lang="pl">Losowo wybrana galeria. Może w ten sposób traficie na temat, którego wcześniej nie udało wam się sprawdzić.</description>
 	<disclaimer lang="en"/>
     <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.audio.shoutcast" name="SHOUTcast 2" provider-name="Tristan Fischer (sphere@dersphere.de)" version="2.2.0">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
-        <import addon="script.module.xbmcswift2" version="2.4.0"/>
-        <import addon="script.module.xmltodict" version="0.2.0"/>
-    </requires>
-    <extension library="addon.py" point="xbmc.python.pluginsource">
-        <provides>audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <language/>
-        <platform>all</platform>
-        <website>http://www.shoutcast.com/</website>
-        <source>http://mirrors.superrepo.org/addons/frodo//</source>
-        <forum>http://forum.xbmc.org/showthread.php?tid=143678</forum>
-        <email>sphere@dersphere.de</email>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <summary lang="be">more than 50.000 free internet radio stations</summary>
-        <summary lang="da">mere end 50.000 gratis netradiostationer</summary>
-        <summary lang="de">mehr als 50.000 kostenlose Internet Radio Sender</summary>
-        <summary lang="el">Πάνω από 50.000 δωρεάν διαδικτυακοί ραδιοφωνικοί σταθμοί</summary>
-        <summary lang="en">more than 50.000 free internet radio stations</summary>
-        <summary lang="es">Más de 50.000 emisoras de radio por Internet gratuitas</summary>
-        <summary lang="fr">plus de 50.000 radios internet gratuites</summary>
-        <summary lang="gl">máis de 50.000 emisoras de radio por internet de balde</summary>
-        <summary lang="hu">Több mint 50.000 ingyenes internet rádió</summary>
-        <summary lang="it">più di 50.000 stazioni radio libere su internet</summary>
-        <summary lang="ko">50,000개 이상의 무료 인터넷 라디오 방송 청취</summary>
-        <summary lang="lt">daugiau kaip 50,000 nemokamų interneto radijo stočių</summary>
-        <summary lang="nl">Meer dan 50.000 vrije internet radio stations</summary>
-        <summary lang="pl">Ponad 50.000 darmowych internetowych stacji radiowych</summary>
-        <summary lang="pt">mais de 50.000 estações de rádio da net grátis</summary>
-        <summary lang="pt_BR">Mais de 50.000 estações de rádio na internet gratuítas</summary>
-        <summary lang="sk">Viac než 50.000 voľných internetových rádio staníc</summary>
-        <summary lang="sv">mer än 50.000 fria internetradiostationer</summary>
-        <summary lang="zh">超过50.000免费网络电台</summary>
-        <description lang="be">With this Add-on you can browse more than 50.000 free internet radio stations. Current Features:[CR]- Top 500 Stations[CR]- Browse by genre (and subgenre if enabled in settings)[CR]- Search Station by name[CR]- Search Stations by current playing track[CR]- You can manage a &quot;My Stations&quot;-list[CR]- bitrate and amount of listeners visible and sortable[CR]- 500 Stations on each Page (can be changed in the settings)[CR]- uses cache (24h genre, 1h station listings)</description>
-        <description lang="da">Med denne addon kan du udforske mere end 50.000 gratis internetradiostationer. Nuværende funktioner:[CR]- Top 500 Stationer[CR]- Gennemse efter genre (og undergenre hvis det er aktiveret i indstillinger)[CR]- Søg efter navn på Station[CR]- Søg efter Station ud fra nummeret der spiller[CR]- Du kan administrere en &quot;My Stations&quot;-liste[CR]- bitrate og antal lyttere vises og kan sorteres[CR]- 500 Stationer på hver side (kan ændres i indstillinger)[CR]- bruger cache (24 timer for genre, 1 time for lister)</description>
-        <description lang="de">Dieses Add-on ermöglicht dir Zugriff auf über 50.000 kostenlose Internet Radio Sender.[CR]Aktuelle Features:[CR]- Top 500 Sender[CR]- Nach Genre browsen[CR]- Sender nach Name suchen[CR]- Sender nach aktuellem Track suchen[CR]- Sender per Kontext Menu in die &quot;Meine Sender&quot;-Liste kopieren[CR]- Anzeige der Bitrate und Anzahl Höhrer[CR]- 500 Sender pro Seite[CR]- Schnell durch lokalen Cache</description>
-        <description lang="el">Με αυτό το Πρόσθετο μπορείτε να περιηγηθείτε ανάμεσα σε περισσότερους από 50.000 δωρεάν διαδικτυακούς ραδιοφωνικούς σταθμούς. Τρέχουσες λειτουργίες:[CR]- Κορυφαίοι 500 Σταθμοί[CR]- Περιήγηση ανά είδος (και υπο-είδος αν είναι ενεργό στις ρυθμίσεις)[CR]- Αναζήτηση Σταθμού με βάση το όνομα[CR]- Αναζήτηση Σταθμών με βάση το τρέχον τραγούδι[CR]- Μπορείτε να διαχειριστείτε μία λίστα &quot;Σταθμών μου&quot;[CR]- Το bitrate και το πλήθος των ακροατών είναι ορατά και η ταξινόμηση μπορεί να γίνει σύμφωνα με αυτά[CR]- 500 Σταθμοί σε κάθε Σελίδα (μπορεί να αλλάξει στις ρυθμίσεις)[CR]- Χρήση λανθάνουσας μνήμης (είδος 24 ωρών, καταχωρίσεις σταθμών 1 ώρας)</description>
-        <description lang="en">With this Add-on you can browse more than 50.000 free internet radio stations. Current Features:[CR]- Top 500 Stations[CR]- Browse by genre (and subgenre if enabled in settings)[CR]- Search Station by name[CR]- Search Stations by current playing track[CR]- You can manage a &quot;My Stations&quot;-list[CR]- bitrate and amount of listeners visible and sortable[CR]- 500 Stations on each Page (can be changed in the settings)[CR]- uses cache (24h genre, 1h station listings)</description>
-        <description lang="es">Con este Add-on pueden escucharse más de 50.000 emisoras de radio por Internet gratuitas. Características:[CR]- Las 500 mejores emisoras.[CR]- Búsqueda por género (y por subgéneros si se habilita en la configuración).[CR]- Búsqueda de emisoras por nombre.[CR]- Búsqueda de emisoras que reproducen una canción.[CR]- Posibilidad de administrar un directorio con &quot;Mis emisoras&quot;.[CR]- Directorios ordenados que muestran bitrate y cantidad de oyentes.[CR]- 500 emisoras en cada página (la cantidad puede cambiarse en la configuración).[CR]- Uso de caché (24h género, 1h directorio de emisoras).</description>
-        <description lang="fr">Avec cette extension vous pouvez accéder à plus de 50.000 station radio internet gratuite. Possibilités actuelles :[CR]- Top 500 stations[CR]- Naviguer par genre (et sous-genre si le réglage est activé)[CR]- Rechercher une station par nom[CR]- Rechercher une station jouant la piste en cours[CR]- Création d'une liste de stations favorites[CR]- Bitrate et nombre d'auditeurs visibles et triables[CR]- 500 stations par page (modifiable dans les réglages)[CR]- Utilisation d'un cache (24h par genre, 1h par station)</description>
-        <description lang="gl">Grazas a este complemento pode buscar máis de 50.000 emisoras de radio por internet de balde. Características:[CR]- Mellores 500 Emisoras[CR]- Buscar por xénero (e subxénero se esta habilitado na configuración)[CR]- Buscar Emisoras por nome[CR]- Buscar Emisoras pola pista en reprodución actual[CR]- Pode xestionar a listaxe &quot;As miñas Emisoras&quot;[CR]- taxa de bits e número de ointes visíbeis e ordenábel[CR]- 500 Emisoras en cada páxina (pódese trocar na configuración)[CR]- usar a caché (24h para xénero, 1h para listaxe de emisoras)</description>
-        <description lang="hu">Ezzel a kiegészítővel választhatsz több mint 50.000 ingyenes rádió adó közül. Jelenlegi szolgáltatások:[CR]- Top 500 állomás[CR]-Műfajonkénti (és alműfajonkénti) keresés[CR]- Név szerinti állomáskeresés[CR]- Állomáskeresés az éppen játszott szám alapján[CR]- Az &quot;én állomásaim&quot; lista kezelése[CR]- Minőség és hallgatottság szerinti rendezés[CR]- 500 adó minden oldalon (a szám beállítható)[CR]- Gyorsítótár használata (24óra a műfajokra, 1óra az állomásokra)</description>
-        <description lang="it">Con questo Add-on puoi sfogliare più di 50.000 stazioni radio libere su internet. Caratteristiche attuali:[CR]- Migliori 500 stazioni[CR]- Sfoglia per genere (e sottogenere se abilitato nelle impostazioni)[CR]- Cerca le stazioni per nome[CR]- Cerca le stazioni per traccia in esecuzione[CR]- Puoi gestire un lista &quot;Mie Stazioni&quot;[CR]- bitrate e quantità di ascoltatori visibile e riordinabile[CR]- 500 Stazioni in ogni pagina (può essere modificato nelle impostazioni)[CR]- cache utilizzata (24h genere, 1h ascolto)</description>
-        <description lang="ko">이 애드온으로 50,000개 이상의 무료 인터넷 라디오 방송을 탐색할 수 있습니다. 현재 기능:[CR]- Top 500 방송국[CR]- 장르(설정에서 활성화하면 하위 장르)로 탐색[CR]- 방송국명으로 검색[CR]- 현재 트랙을 방송중인 방송국 검색[CR]- &quot;내 방송국&quot; 목록 관리[CR]- 비트레이트와 청취자수 표시와 정렬[CR]- 페이지당 500 방송국 표시 (설정에서 변경 가능)[CR]- 캐시 사용 (장르 24시간, 방송국 리스트 1시간)</description>
-        <description lang="lt">Su šiuo priedu galite naršyti daugiau kaip 50,000 nemokamų interneto radijo stočių. Dabartinės Įranga:[CR]- 500 geriausių stočių[CR]- Naršyti pagal žanrą (ir porūšį, jei įjungta nustatymuose)[Cr]- Paieška. Stoties pavadinimas[CR]- Ieškoti stočių pagal dabartinį atkuriamajį takelį[CR]- Jūs galite valdyti &quot;Mano radijo stotys&quot; sąrašą[Cr]- 500 stočių kiekviename puslapyje(galima keisti nustatymuose)[Cr]- Naudoja talpyklą (24h žanras, 1H stoties sąrašai)</description>
-        <description lang="nl">Met deze Add-on die kunt u door meer dan 50.000 vrije internet radiostations bladeren. Huidige functies: [CR]- Top 500 Stations [CR]- bladeren door genre (en subgenre indien ingeschakeld in instellingen) [CR] - Zoek Station op naam [CR] - Zoek Stations door huidige spelen track [CR]- u kunt een &quot;Mijn Stations&quot; lijst beheren[CR]- bitrate en hoeveelheid luisteraars zichtbaar en sorteerbaar [CR]- 500 Stations op elke pagina (kan gewijzigd worden in de instellingen) [CR]-gebruikte cache (24u genre, 1 uur station luisteren)</description>
-        <description lang="pl">Dzięki tej wtyczce możesz przeglądać w ponad 50.000 darmowych stacjach radiowych. Aktualne funkcje:[CR]- Top 500 stacji[CR]- przeglądaj według gatunków (oraz subgatunków jeżeli włączone)[CR]- szukaj stacji po nazwie[CR]- szukaj stacji po granym utworze[CR]- zarządzaj listą Moje stacje[CR]- sortowanie oraz widoczność liczby słuchaczy i bitrate[CR]- 500 stacji na stronie (możliwa edycja)[CR]- pamięć podręczna (24h gatunki, 1h lista stacji)</description>
-        <description lang="pt">Com este add-on, pode escolher entre mais de 50.000 estações de rádio da net grátis. Funcionalidades:[CR]- Top 500 Rádios[CR]- Procure por Género (e sub-género, se activo nas preferências)[CR]- Procurar Rádio por nome[CR]- Procurar Rádios por faixa em reprodução[CR]- Pode gerir uma lista de &quot;Minhas Rádios&quot;[CR]- bitrate e quantidade de ouvintes visíveis e ordenáveis[CR]- 500 Rádios em cada Página (pode ser alterado nas preferências)[CR]- usar cache (24h para género, 1h para lista das rádios)</description>
-        <description lang="pt_BR">Com este add-on que você pode navegar em mais de 50.000 estações de rádio da Internet gratuitas. Características atuais: [CR] - Top 500 Estações [CR] - Procurar por género (e subgênero se habilitado nas configurações) [CR] - Pesquisar Estação  pelo nome [CR] - Estações de pesquisa por faixa  atual [CR] - Você pode gerenciar uma  lista de &quot;Minhas Estações&quot;  [CR] - bitrate e quantidade de ouvintes visível e classificáveis ​​[CR] - 500 estações em cada página (pode ser alterado nas configurações) [CR] - usa cache (gênero 24h, ouvintes estação 1h)</description>
-        <description lang="sk">S týmto doplnok môžete prehliadať vyše 50.000 voľných internetových rádio staníc. Momentálne podporuje:
-- Top 500 staníc
-- Prehliadanie podľa žánru (a pod-žánru, ak povolené v nastaveniach)
-- hľadanie stanice podľa mena
-- hľadanie stanice podľa práve hranej skladby
-- Môžete spravovať zoznam &quot;Moje stanice&quot;
-- zobrazenie a zoradenie podľa dátového toku a počtu poslucháčov
-- 500 staníc na každej strane (môže byť zmenené v nastaveniach)
-- používa medzi-pamäť (24h pre žánre, 1h pre zoznam staníc)</description>
-        <description lang="sv">Med detta tillägg kan du bläddra bland mer än 50.000 fria internetradiostationer. Nuvarande funktioner:[CR]- Topp 500 stationer[CR]- Bläddra efter genre (och undergenre, om det är påslaget i inställningar)[CR]- Sök station efter namn[CR]- Sök stationer som spelar låt[CR]- Du kan hantera &quot;Mina stationer&quot;-lista[CR]- bitrate och antal lyssnare är synligt och sorterbart[CR]- 500 stationer på varje sida (kan ändras i inställningar)[CR]- använder buffert (24 genre, 1 timmes stationlista)</description>
-        <description lang="zh">你可以使用本插件浏览超过50.000免费网络电台。当前功能：[CR]- 500强电台[CR]- 按类别浏览（可设置子类）[CR]- 按名字搜索电台[CR]- 按当前播放曲目搜索电台[CR]- 管理“我的电台”-列表[CR]- 按比特率和收听人数排序[CR]- 每页500个电台（可设置）[CR]- 使用缓存（24小时类别，1小时站点列表）</description>
-    </extension>
+</addon><addon id="plugin.video.example" name="Example of a Video Addon - [Tutorial]" provider-name="The[COLOR tan]Highway[/COLOR]" version="0.1.0">
+  <requires>
+  	<import addon="xbmc.python" version="2.0"/>
+  	<import addon="script.module.urlresolver" version="2.0.9"/>
+  	<import addon="script.module.t0mm0.common" version="1.0.0"/>
+  	<import addon="script.module.metahandler" version="2.0.3"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+  	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+  	<summary>A tutorial example of to start people off on making a new video addon for xbmc.</summary>
+  	<description>This example has been made for the XBMCHUB community.</description>
+  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
+  	<language>en</language>
+  	<platform>all</platform>
+  	<forum>http://www.xbmchub.com/forums/</forum>
+  	<website>http://github.com/HIGHWAY99/plugin.video.example/</website>
+  	<email/>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.gamekings" name="GameKings" provider-name="Skipmode A1" version="1.0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -245,6 +200,95 @@ Momentálne podporuje:
     <description>no</description>
     <platform>all</platform>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.itunes_trailers" name="Apple iTunes Trailers" provider-name="Tristan Fischer (sphere@dersphere.de)" version="0.2.2">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.xbmcswift2" version="2.4.0"/>
+        <import addon="script.module.beautifulsoup" version="3.0.8"/>
+        <import addon="script.module.simple.downloader" version="1.9.4"/>
+    </requires>
+    <extension library="addon.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <website>http://trailers.apple.com/</website>
+        <source>http://mirrors.xbmc.org/addons/frodo/</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=160691</forum>
+        <email>sphere@dersphere.de</email>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <language/>
+        <platform>all</platform>
+        <summary lang="be">Apple iTunes Trailer Browser</summary>
+        <summary lang="bg">Преглед на трейлъри от iTunes на Apple</summary>
+        <summary lang="ca">Buscador de Tràilers d'Apple iTunes</summary>
+        <summary lang="de">Apple iTunes Trailer Browser</summary>
+        <summary lang="el">Περιήγηση Διαφημιστικών Apple iTunes</summary>
+        <summary lang="en">Apple iTunes Trailer Browser</summary>
+        <summary lang="es">Explorador de Trailers de Apple iTunes</summary>
+        <summary lang="fr">Navigateur de Bande-annonces Apple iTunes</summary>
+        <summary lang="fr_CA">Navigateur de bandes-annonces pour iTunes d'Apple</summary>
+        <summary lang="gl">Buscardor de Avances de Apple iTunes</summary>
+        <summary lang="he">סייר קדימונים מחנות iTunes של Apple</summary>
+        <summary lang="hr">Apple iTunes preglednik najava filmova</summary>
+        <summary lang="hu">Apple iTunes Trailer Böngésző</summary>
+        <summary lang="it">Sfoglia i Trailer da </summary>
+        <summary lang="ko">Apple iTunes Trailer Browser</summary>
+        <summary lang="nl">Apple itunes Trailer Browser</summary>
+        <summary lang="pl">Przeglądarka zwiastunów Apple iTunes</summary>
+        <summary lang="pt">Navegador de Trailers do Apple iTunes</summary>
+        <summary lang="pt_BR">Apple iTunes Trailer Browser</summary>
+        <summary lang="sv">Apple iTunes Trailer utforskare</summary>
+        <summary lang="tr">Apple iTunes Fragman Tarayıcısı</summary>
+        <summary lang="zh">苹果iTunes预告片浏览器</summary>
+        <description lang="be">Apple iTunes Movie Trailers puts the newest and most exclusive movie previews in HD to your XBMC. Features:[CR]- Watch Trailers in 480p/720p/1080p[CR]- Download Trailers[CR]- Add Movies to Trakt.tv[CR]- Add Movies to CouchPotato</description>
+        <description lang="bg">Apple iTunes Movie Trailers Ви предоставя преглед на най-новите филми в HD формат. Характеристики:[CR]- Възпроизвежда трейлъри в 480p/720p/1080p резолюция[CR]- Сваля трейлъри[CR]- Добавя филми към акаунта Ви в www.Trakt.tv[CR]- Добавя филми в CouchPotato</description>
+        <description lang="ca">Apple iTunes Movie Tràilers posa els tràilers en HD més nous i exclusius en el seu XBMC. Característiques:[CR] - Vegeu Tràilers en 480p/720p/1080p[CR]- Descàrrega de Tràilers [CR]- Afegiu Pel·lícules a Trakt.tv[CR] - Afegiu Pel·lícules a CouchPotato</description>
+        <description lang="de">Apple iTunes Movie Trailers bringt die neusten und exklusivsten Filmvorschauen in HD auf Dein XBMC. Features:[CR]- Trailer in 480p/720p/1080p[CR]- Trailer herunterladen[CR]- Filme zu CouchPotato hinzufügen</description>
+        <description lang="el">Η Περιήγηση Διαφημιστικών Apple iTunes προσφέρει τα νεώτερα και σε αποκλειστικότητα διαφημιστικά σε ανάλυση HD στο XBMC σας. Χαρακτηριστικά:[CR]- Προβολή Διαφημιστικών σε 480p/720p/1080p[CR]- Λήψη Διαφημιστικών[CR]- Προσθήκη Ταινιών στο CouchPotato</description>
+        <description lang="en">Apple iTunes Movie Trailers puts the newest and most exclusive movie previews in HD to your XBMC. Features:[CR]- Watch Trailers in 480p/720p/1080p[CR]- Download Trailers[CR]- Add Movies to Trakt.tv[CR]- Add Movies to CouchPotato</description>
+        <description lang="es">Apple iTunes Movie Trailers pone los trailers en HD más novedosos y exclusivos en su XBMC. Características:[CR]- Vea Trailers en 480p/720p/1080p[CR]- Descarga de Trailers[CR]- Añada Películas a CouchPotato</description>
+        <description lang="fr">Apple iTunes Bande-annonces de Films vous donne accès aux nouvelles et exclusives bande-annonces en HD pour XBMC. Fonctionnalités:[CR]- Regarder les bande-annonces en 480p/720p/1080p[CR]- Télécharger les Bande-annonces[CR]- Ajouter les films à CouchPotato</description>
+        <description lang="fr_CA">Les bandes-annonces de films de Itunes d'Apple amènent les avant-premières HD les plus récentes et les plus exclusives dans votre XBMC. Caractéristiques:[CR]- Regarder des bandes-annonces en 480p-720p-1080p[CR]- Télécharger des bandes-annonces[CR]- Ajouter des films à Trakt.tv[CR]- Ajouter des films à CouchPotato</description>
+        <description lang="gl">Os Avances de Filmes de Apple iTunes leva os máis novos e exclusivos avances en Alta Definición ao teu XBMC. Características:[CR]- Ver Avances en 480p/720p/1080p[CR]- Descargar Avances[CR]- Engadir filmes a CouchPotato</description>
+        <description lang="he">הרחבת הוידאו של קדימוני סרטים מחנות iTunes של Apple מביאה את קדימוני הסרטים הכי חדשים ואקסלוסיביים באיכות HD הישר אל XBMC. כולל:[CR]- צפיה בקדימונים באיכות 480p/720p/1080p[CR]- הורד קדימונים[CR]- הוסף סרטים ל-Trakt.tv[CR]- הוסף סרטים ל-CouchPotato</description>
+        <description lang="hr">Apple iTunes filmske najave prikazuju najnovije i najekskluzivnije HD filmske najave u vašem XBMC-u. Značajke:[CR]- Gledajte najave u 480p/720p/1080p[CR]- Preuzmite najave[CR]- Dodajte filmove na Trakt.tv[CR]- Dodajte filmove na CouchPotato</description>
+        <description lang="hu">Apple iTunes Filmelőzetesek eljuttatja a legfrissebb és exkluzív filmelőzeteseket HD-ban XBMC-be. Képességek:[CR]- Előzetesek megtekintése 480p/720p/1080p-ben[CR]- Előzetesek letöltése[CR]- Hozzáadás a Trakt.tv-hez[CR]- Hozzáadás a CouchPotato-hoz</description>
+        <description lang="it">Apple iTunes Movie Trailers mette le più nuove ed esclusive anteprime dei film in HD nel tuo CBMC.
+Caratteristiche:[CR]- Guarda i Trailer a  480p/720p/1080p[CR]- Scarica i Trailer[CR]- Aggiungi i Filma </description>
+        <description lang="ko">Apple iTunes Movie Trailers 는 HD 포맷의 수많은 최신 독점 영화 예고편을 XBMC로 가져옵니다. 기능:[CR]- 480p/720p/1080p 예고편 시청[CR]- 예고편 다운로드[CR]- Trakt.tv 에 영화 추가[CR]- CouchPotato 에 영화 추가</description>
+        <description lang="nl">Apple iTunes Movie Trailers voegt de nieuwste en meest exclusieve filmpreviews in HD toe aan jouw XBMC. Functies:[CR]- Bekijk trailers in 480p/720p/1080p[CR]- Download trailers[CR]- voeg films toe aan Trakt.tv[CR]- voeg films toe aan Couchpotato</description>
+        <description lang="pl">Apple iTunes Movie Trailers udostępnia najnowsze i najbardziej wyjątkowe zwiastuny filmów w jakości HD w twoim XBMC. Możliwości:[CR]- Oglądanie zwiastunów w 480p/720p/1080p[CR]- Pobieranie zwiastunów[CR]- Dodawanie filmów do CouchPotato</description>
+        <description lang="pt">O navegador de Trailers do Apple iTunes para XBMC dá-lhe acesso às mais recentes e exclusivas apresentações de filmes em HD. Funcionalidades:[CR]- Ver Trailers em 480p/720p/1080p[CR]- Transferir Trailers[CR]- Adicionar Filmes a Trakt.tv[CR]- Adicionar Filmes ao CouchPotato</description>
+        <description lang="pt_BR">Apple iTunes Movie Trailers entrega os previews mais novos e exclusivos em HD para o XBMC. Recursos:[CR]-Assista trailers em 480p/720p/1080p[CR]-Download Trailers[CR]-Adicione filmes ao CouchPotato</description>
+        <description lang="sv">Apple iTunes Movie Trailers ger dig dom senaste och exklusivaste filmförhandsgranskningarna i HD till ditt XBMC. Funktioner:[CR]- Se trailers i 480p/720p/1080p[CR]- Ladda ner trailers[CR]- Lägg till filmer i CouchPotato</description>
+        <description lang="tr">Apple iTunes Film Fragmanları en yeni ve seçkin film önizlemelerini HD kalitesinde XBMC'ye koyar. Özellikler:[CR]- Fragmanları 480p/720p/1080p kalitesinde İzle[CR]- Fragmanları İndir[CR]- Filmleri Trakt.tv'ye Ekle[CR]- Filmleri CouchPotato'ya Ekle</description>
+        <description lang="zh">苹果iTunes电影预告片可在XBMC中观看最新和独家的高清电影预览。功能：[CR]- 观看480p/720p/1080p格式预告片[CR]- 下载预告片[CR]- 电影加入到Trakt.tv[CR]- 电影加入到CouchPotato</description>
+        <disclaimer lang="be">NO iTunes required!</disclaimer>
+        <disclaimer lang="bg">НЕ изисква iTunes!</disclaimer>
+        <disclaimer lang="ca">No requereix d'iTunes!</disclaimer>
+        <disclaimer lang="da">iTunes er ikke nødvendig!</disclaimer>
+        <disclaimer lang="de">KEIN iTunes benötigt!</disclaimer>
+        <disclaimer lang="el">Δεν απαιτείται ΚΑΝΕΝΑ iTunes!</disclaimer>
+        <disclaimer lang="en">NO iTunes required!</disclaimer>
+        <disclaimer lang="es">iTunes no es necesario</disclaimer>
+        <disclaimer lang="fi">iTunesia EI vaadita!</disclaimer>
+        <disclaimer lang="fr">AUCUN iTunes obligatoires!</disclaimer>
+        <disclaimer lang="fr_CA">iTunes n'est PAS nécessaire!</disclaimer>
+        <disclaimer lang="gl">Non se require o iTunes!</disclaimer>
+        <disclaimer lang="he">לא נדרש iTunes!</disclaimer>
+        <disclaimer lang="hr">iTunes nije potreban!</disclaimer>
+        <disclaimer lang="hu">iTunes NEM szükséges!</disclaimer>
+        <disclaimer lang="it">iTunes non è necessario!</disclaimer>
+        <disclaimer lang="ko">iTunes 필요 없음!</disclaimer>
+        <disclaimer lang="lt">NO iTunes reikia!</disclaimer>
+        <disclaimer lang="nl">GEEN iTunes vereist!</disclaimer>
+        <disclaimer lang="pl">Nie wymaga iTunes!</disclaimer>
+        <disclaimer lang="pt">Não é necessário iTunes!</disclaimer>
+        <disclaimer lang="pt_BR">iTunes NÃO necessário!</disclaimer>
+        <disclaimer lang="sv">INGEN iTunes krävs!</disclaimer>
+        <disclaimer lang="tr">iTunes gerekli değil!</disclaimer>
+        <disclaimer lang="zh">不需要iTunes软件！</disclaimer>
+    </extension>
 </addon><addon id="plugin.video.fox.news" name="Fox News" provider-name="t1m,divingmule" version="4.0.3">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -281,69 +325,6 @@ Momentálne podporuje:
     <platform>all</platform>
 	<language>en</language>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.hollywoodreporter" name="TheHollywoodReporter" provider-name="Tristan Fischer (sphere@dersphere.de)" version="0.1.0">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.beautifulsoup" version="3.0.8"/>
-        <import addon="script.module.xbmcswift" version="0.2.0"/>
-        <import addon="script.module.pyamf" version="0.6.1"/>
-        <import addon="plugin.video.youtube" version="4.4.4"/>
-    </requires>
-    <extension library="addon.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <language/>
-        <platform>all</platform>
-        <website>http://www.hollywoodreporter.com/</website>
-        <source>http://mirrors.superrepo.org/addons/frodo//</source>
-        <forum>http://forum.xbmc.org/showthread.php?tid=139160</forum>
-        <email>sphere@dersphere.de</email>
-        <summary lang="ar">فيديو من www.hollywoodreporter.com</summary>
-        <summary lang="be">Videos from www.hollywoodreporter.com</summary>
-        <summary lang="ca">Videos des www.hollywoodreporter.com</summary>
-        <summary lang="da">Videoer fra www.hollywoodreporter.com</summary>
-        <summary lang="de">Videos von hollywoodreporter.com</summary>
-        <summary lang="el">Βίντεο από το www.hollywoodreporter.com</summary>
-        <summary lang="en">Videos from www.hollywoodreporter.com</summary>
-        <summary lang="es">Videos de www.hollywoodreporter.com</summary>
-        <summary lang="es_MX">Videos desde www.hollywoodreporter.com</summary>
-        <summary lang="fa_IR">ویدیوهایی از www.hollywoodreporter.com</summary>
-        <summary lang="gl">Vídeos de www.hollywoodreporter.com</summary>
-        <summary lang="hu">Videók a www.hollywoodreporter.com oldalról</summary>
-        <summary lang="it">Video da  www.hollywoodreporter.com</summary>
-        <summary lang="ko">www.hollywoodreporter.com의 동영상</summary>
-        <summary lang="lt">Video iš www.hollywoodreporter.com</summary>
-        <summary lang="nl">Video's van www.hollywoodreporter.com</summary>
-        <summary lang="pl">Filmy z www.hollywoodreporter.com</summary>
-        <summary lang="pt">Vídeos de www.hollywoodreporter.com</summary>
-        <summary lang="pt_BR">Vídeos de www.hollywoodreporter.com</summary>
-        <summary lang="sk">Videá z www.hollywoodreporter.com</summary>
-        <summary lang="sv">Videor från www.hollywoodreporter.com</summary>
-        <summary lang="zh">www.hollywoodreporter.com的视频</summary>
-        <description lang="ar">المقصد الرئيسي و المصدر الموثوق على نطاق واسع للترفيه, الأخبار, المشاركات. الفيديو و التحليل.</description>
-        <description lang="be">The premier destination and most-widely trusted resource for entertainment news, reviews, videos and analysis.</description>
-        <description lang="ca">La primera destinació i recurs de confiança amb més acceptació per notícies, reportages, videos i anàlisi d'entreteniment.</description>
-        <description lang="da">Den bedste og mest troværdige kilde til nyheder, anmeldelser, videoer og analyser fra og om underholdningsbranchen.</description>
-        <description lang="de">Die erste Anlaufstelle und der am meisten vertraute Quelle für Unterhaltung, Neuigkeiten, Tests, Videos und Analysen.</description>
-        <description lang="el">Ο κυριότερος προορισμός και η πιο έμπιστη πηγή ψυχαγωγικών ειδήσεων, κριτικών, βίντεο και αναλύσεων.</description>
-        <description lang="en">The premier destination and most-widely trusted resource for entertainment news, reviews, videos and analysis.</description>
-        <description lang="es">El destino principal y el recurso más fiable de noticias, críticas, videos y análisis del mundo del entretenimiento.</description>
-        <description lang="es_MX">La primera y mas confiable fuente para noticias, reviews, videos y análisis del entretenimiento.</description>
-        <description lang="fa_IR">مقصد برتر و مطمئن ترین مرجع برای اخبار سرگرمی, نقد و بررسی, فیلم ها و آنالیز.</description>
-        <description lang="gl">O principal e maior recurso confiable de novas sobre lecer, opinións, vídeos e análises.</description>
-        <description lang="hu">A szórakoztató hírek, visszatekintések, videók és analízisek elsődleges célpontja és legmegbízhatóbb forrása.</description>
-        <description lang="it">La risorsa principale per notizie di intrattenimento, recensioni, video e analisi.</description>
-        <description lang="ko">엔터테인먼트 뉴스, 리뷰, 비디오와 분석 제공</description>
-        <description lang="lt">Geriausia paskirties vieta ir plačiausiai patikimas šaltinis: pramogų naujienos, nuomonės, vaizdo įrašai ir analizės.</description>
-        <description lang="nl">De vooraanstaande bestemming en meest betrouwbare bron voor entertainment nieuws, reviews, video's en analyses.</description>
-        <description lang="pl">Główne i zarazem najbardziej zaufane źródło powszechnych wiadomości rozrywki, opini, filmów wideo oraz analiz.</description>
-        <description lang="pt">Para notícias do mundo do entretenimento, críticas, vídeos e análises, esta é a fonte número um e também a mais fiável.</description>
-        <description lang="pt_BR">O principal destino e recursos amplamente confiáveis para o entretenimento notícias, análises, vídeos e análise.</description>
-        <description lang="sk">Prvý cieľ a najdôveryhodnejší zdroj správ, recenzií, videí a analýz z Hollywoodu.</description>
-        <description lang="sv">Den primära destinationen och mest betrodda källan för underhållningsnyheter, granskningar, videor och analyser.</description>
-        <description lang="zh">首选和最值得信赖的 娱乐新闻、评论、视频和分析来源</description>
-    </extension>
 </addon><addon id="plugin.audio.listenliveeu" name="ListenLiveEU" provider-name="bootsy, xycl" version="1.1.0">
   <requires>
    <import addon="xbmc.python" version="2.1.0"/>
@@ -403,6 +384,19 @@ Momentálne podporuje:
     <source>http://mirrors.superrepo.org/addons/frodo//</source>
     <forum>http://forum.xbmc.org/showthread.php?tid=178562</forum>
   </extension>
+</addon><addon id="plugin.video.SportsDevil" name="SportsDevil" provider-name="MaxMustermann" version="1.8.5.7">
+  <requires>
+   <import addon="xbmc.python" version="2.0"/>
+   <import addon="script.common.plugin.cache" version="0.9.1"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Play videos of different sports streaming sites</summary>
+    <description>Play videos of different sports streaming sites</description>
+    <platform>all</platform>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.galileo-tv.ru" name="[COLOR FF00FF00]Галилео ([/COLOR][COLOR FFFFF000]galileo-tv.ru[/COLOR][COLOR FF00FF00])[/COLOR]" provider-name="Silen" version="1.0.1">
   <requires>
     <import addon="xbmc.python" version="1.0"/>
@@ -421,22 +415,6 @@ Momentálne podporuje:
 </description>
     <platform>all</platform>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.atv_at" name="ATV.at" provider-name="AddonScriptorDE" version="2.0.4">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="de">ATV.at Mediathek</summary>
-        <summary lang="en">ATV.at media library</summary>
-        <language>de</language>
-        <description lang="de">ATV.at Mediathek</description>
-        <description lang="en">ATV.at media library</description>
-    <platform>all</platform>
-    <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.jvcom" name="JeuxVideo.com" provider-name="gormux" version="1.0.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -568,21 +546,6 @@ JS</description>
 		<disclaimer lang="el">Το πρόσθετο αυτό προσφέρει περιεχόμενο διαθέσιμο στην Ελλάδα.</disclaimer>
 		<platform>all</platform>
 	<source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.audio.radiostyle.ru" name="RadioStyle" provider-name="HD-Lab Team" version="1.0.6">
-  <requires>
-    <import addon="xbmc.python" version="1.0"/>
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>audio</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>Интернет-радиостанция http://www.radiostyle.ru/</summary>
-    <description>RadioStyle.ru предлагает Вам услуги по созданию собственной Интернет-радиостанции, либо ретрансляции FM станции в сети Интернет. Для использования нашего сервиса Вам не потребуются особые знания, поскольку мы имеем удобную панель управления, подробные инструкции, и мы предоставляем поддержку всем нашим клиентам.
-Пользователям уже надоел обычный статический контент сайтов, посетителя больше не удивишь хорошим текстом и красивыми картинками. Медиа-контент сайта - аудио и видеоинформация, в особенности живое вещание - вот что привлекает посетителя. Аудио и видео трансляция в сети Интернет - это будущее, которое уже сейчас доступно всем желающим благодаря нашему сервису!
-Музыканты при помощи нашего сервиса могут вещать в Интернет своё творчество. Возможны живые концерты в прямом эфире! Фан-клубы музыкальных групп просто обязаны иметь собственную радиостанцию, в эфире которой будет звучать их любимая группа.
-Мы можем часами объяснять все преимущества нашего сервиса - проще один раз попробовать. После регистрации Вы можете в течении 24 часов абсолютно БЕСПЛАТНО пользоваться нашим сервисом!</description>
-  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.guzei.tv" name="GUZEI.TV" provider-name="HD-Lab Team" version="1.0.8">
   <requires>
     <import addon="xbmc.python" version="1.0"/>
@@ -594,41 +557,6 @@ JS</description>
     <summary>Смотрите online-видео с сайта http://guzei.com/live/tv/</summary>
     <description>Смотрите online-видео с сайта http://guzei.com/live/tv/</description>
     <platform>all</platform>
-  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.hotVOD.video" name="Hot VOD" provider-name="sbentin" version="1.0.10">
-    <requires>
-        <import addon="xbmc.python" version="2.0"/>
-    </requires>
-    <extension library="Hot.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <minversion>31632</minversion>
-        <summary lang="en">Watch Hot video contents.</summary>
-        <summary lang="he">צפה בתוכניות VOD מאתר הוט</summary>
-        <description lang="en">Watch Hot Video contents from Hot.ynet.co.il.</description>
-        <description lang="he">צפה במגוון התוכניות והסדרות הניתנות לצפיה מאתר hot.ynet.co.il</description>
-        <disclaimer>This addon parse Hot's site, you should check Hot's TOS before you using. It's as is</disclaimer>
-        <supportedcontent>
-          <content>tvshows</content>
-          <content>episodes</content>
-          <content>movies</content>
-        </supportedcontent>	
-    <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.glwiz" name="GLWiZ" provider-name="babak" version="1.0.9">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.beautifulsoup" version="3.2.0"/>
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>GLWiZ</summary>
-    <description>GLWiZ Addon for XBMC</description>
-    <platform>all</platform>
-    <language>fa az hy tr</language>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.audio.diyfm" name="diy.fm" provider-name="diy.fm" version="0.0.3">
     <requires>
@@ -710,101 +638,6 @@ JS</description>
     <description>Watch Anime Videos From AnimeHere.com</description>
     <platform>all</platform>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.itunes_podcasts" name="Apple iTunes Podcasts" provider-name="Tristan Fischer (sphere@dersphere.de)" version="1.1.6">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.simplejson" version="2.0.10"/>
-        <import addon="script.module.xbmcswift2" version="2.4.0"/>
-        <import addon="script.module.feedparser" version="0.5.7"/>
-    </requires>
-    <extension library="addon.py" point="xbmc.python.pluginsource">
-        <provides>video audio</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <language/>
-        <platform>all</platform>
-        <website/>
-        <source>http://mirrors.xbmc.org/addons/frodo/</source>
-        <forum>http://forum.xbmc.org/showthread.php?tid=143064</forum>
-        <email>sphere@dersphere.de</email>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <summary lang="be">Apple iTunes Podcast Browser</summary>
-        <summary lang="ca">Buscador de Podcast d'Apple iTunes</summary>
-        <summary lang="da">Udforsk Podcasts fra Apple iTunes</summary>
-        <summary lang="de">Apple iTunes Podcast Browser</summary>
-        <summary lang="el">Περιηγητής Podcast του Apple iTunes</summary>
-        <summary lang="en">Apple iTunes Podcast Browser</summary>
-        <summary lang="es">Explorador de Apple iTunes Podcasts</summary>
-        <summary lang="fr">Navigateur Apple iTunes Podcast</summary>
-        <summary lang="fr_CA">Navigateur de balados d'Apple iTunes</summary>
-        <summary lang="gl">Buscador de Podscasts de Apple iTunes</summary>
-        <summary lang="he">Apple iTunes Podcast Browser</summary>
-        <summary lang="hr">Apple iTunes podcast preglednik</summary>
-        <summary lang="hu">Apple iTunes podcast böngésző</summary>
-        <summary lang="id">Peramban Podcast iTunes Apple</summary>
-        <summary lang="it">Browser per Podcast di Apple iTunes </summary>
-        <summary lang="ko">애플 iTunes 팟캐스트 탐색기</summary>
-        <summary lang="lt">Apple iTunes [COLOR=red]Podcast[/COLOR] naršyklė</summary>
-        <summary lang="nl">Apple itunes Podcast Browser</summary>
-        <summary lang="pl">Przeglądarka podcastów Apple iTunes</summary>
-        <summary lang="pt">Navegador Apple iTunes Podcast</summary>
-        <summary lang="pt_BR">Navegador de Podcasts Apple iTunes</summary>
-        <summary lang="sk">Prehliadač na Apple iTunes Podcast</summary>
-        <summary lang="sv">Apple iTunes podcast-utforskare</summary>
-        <summary lang="tr">Apple iTunes Podcast Tarayıcısı</summary>
-        <summary lang="zh">苹果iTunes播客浏览器</summary>
-        <description lang="be">This add-on lets you browse and search for thousands of free Podcasts.[CR]NO iTunes Required![CR]It provides both, audio and video podcasts - each devided into over 60 genres. You can also search for specific podcasts by name.[CR]It is also possible to manage a &quot;My Podcasts&quot; list via context-menu.</description>
-        <description lang="ca">Aquest complement li permet explorar i buscar milers de podcasts gratuïts.[CR]NO requereix d'iTunes![CR]Proporciona podcasts d'àudio i vídeo - cadascun dividit en més de 60 gèneres. També pot buscar podcasts específics pel seu nom.[CR] També és possible gestionar un llista &quot;Els meus Podcasts&quot; a través del menú contextual.</description>
-        <description lang="da">Dette addon lader dig udforske og søge efter tusinder af gratis Podcasts.[CR]Det tilbyder både lyd- og videopodcasts - hver især opdelt i over 60 genrer. Du kan også søge efter specifikke navne på podcasts.[CR]Det er også muligt at håndtere &quot;Mine Podcasts&quot; via kontekstmenuen.</description>
-        <description lang="de">Dieses Add-on ermöglicht das durchsuchen von tausenden kostenlosen Podcasts.[CR]Es bieted Video- und Audio-Podcasts - je aufgeteilt auf über 60 Genre. Auch ist es möglich nach Podcasts zu suchen.[CR]Außerdem ist es möglich eine &quot;Meine Podcasts&quot;-Liste über das Kontext-Menu zu verwalten.</description>
-        <description lang="el">Αυτό το πρόσθετο σας επιτρέπει να περιηγηθείτε και να αναζητήσετε χιλιάδες δωρεάν Podcast.[CR]Παρέχει podcast βίντεο και ήχου - και τα δύο χωρισμένα σε 60 είδη. Μπορείτε να αναζητήσετε συγκεκριμένα podcast με το όνομα.[CR]Είναι, επίσης, δυνατό να διαχειριστείτε μία λίστα &quot;Podcast μου&quot; μέσω του μενού επιλογών.</description>
-        <description lang="en">This add-on lets you browse and search for thousands of free Podcasts.[CR]NO iTunes Required![CR]It provides both, audio and video podcasts - each devided into over 60 genres. You can also search for specific podcasts by name.[CR]It is also possible to manage a &quot;My Podcasts&quot; list via context-menu.</description>
-        <description lang="es">Este complemento le permite explorar y buscar entre miles de Podcasts gratuitos.[CR]Proporciona acceso a podcasts de audio y video divididos en más de 60 géneros. Incluso puede buscar podcasts por su nombre.[CR]Incluso es posible manejar sus podcasts mediante la lista &quot;Mis Podacsts&quot; del menú contextual.</description>
-        <description lang="fr">Cette extension vous permet de naviguer et trouver des milliers de Podcasts gratuit.[CR]Il existe des podcasts audio et vidéo, divisé en 60 genres différents. Vous pouvez également cherche un podcast par nom.[CR]Il est possible de gérer une liste de &quot;Mes Podcasts&quot; via le menu contextuel.</description>
-        <description lang="fr_CA">Cet addiciel vous permet de parcourir et de rechercher des milliers de balados gratuits [CR]iTunes n'est PAS obligatoire![CR]Il fournit à la fois des balados audio et vidéo - divisés en plus de 60 genres. Vous pouvez également rechercher des balados spécifiques par nom.[CR]Il est également possible de gérer une liste « Mes Balados » avec le menu contextuel.</description>
-        <description lang="gl">Este complemento permítelle navegar e buscar entre milleiros de Podcasts de balde.[CR]Non é necesario o iTunes.[CR]Fornece tanto de podcasts de son coma de vídeo - cada un dividido entre 60 xéneros. Tamén pode buscar un podcasts concreto polo nome.[CR]Tamén é posible xestionar a listaxe dos &quot;Meus Podcasts&quot; mediante un menú contextual.</description>
-        <description lang="he">הרחבה זו מאפשרת לך לעיין ולחפש באלפי פודקאסטים חינמים.[CR]לא נדרש iTunes![CR]היא מציעה גם פודקאסטי אודיו וגם וידאו - המחולקים ליותר מ-60 סגנונות. ניתן לחפש גם פודקאסט מסוים לפי שם.[CR]בנוסף ניתן לנהל רשימת &quot;הפודקאסטים שלי&quot; בעזרת תפריט Context.</description>
-        <description lang="hr">Ovaj dodatak vam omogućuje pregledavanje i pretraživanje na tisuće besplatnih Podcasta.[CR]iTunes nije potreban![CR]Pruža vam obadvoje, zvučne i video podcaste - svaki podijeljen u više od 60 žanrova. Isto tako možete pretraživati određene podcaste prema nazivu.[CR]Moguće je upravljanje &quot;Moji podcasti&quot; popisom putem kontekstualnog izbornika.</description>
-        <description lang="hu">Ez a kiegészítő lehetővé teszi több ezer ingyenes podcast böngészését és keresését[CR]Hang és videó podcastok is elérhetőek, 60 műfajra osztva. Név szerint is lehetséges a keresés egy adott podcastra.[CR]A helyi menü segítségével kezelheti &quot;saját&quot; podcastjait.</description>
-        <description lang="id">Addon ini memungkinkan Anda menjelajahi dan mencari ribuat Podcast gratisan.[CR]Tidak perlu iTunes![CR]Addon menyediakan kedua macam podcast, audio dan video - masing-masing dibagi ke dalam lebih dari 60 tema. Anda juga dapat mencari podcast spesifik menurut namanya.[CR]Anda juga dapat mengelola daftar &quot;Podcast Saya&quot; dari menu konteks.</description>
-        <description lang="it">Questo add-on ti permette di sfogliare e cercare centinai di Podcast liberi.[CR]Fornisce sia podcast video che audio - ognuno diviso in 60 generi. puoi cercare podcast specifici per nome.[CR]E' anche possibile gestire la lista: &quot;I miei Podcast&quot; tramite il menù contestuale</description>
-        <description lang="ko">이 애드온으로 수천개의 무료 팟캐스트를 탐색하고 검색할 수 있습니다.[CR]각 60개 이상의 장르로 구분된 오디오와 비디오 팟캐스트를 제공합니다. 특정한 팟캐스트를 이름으로 검색할 수 있습니다.[CR]컨텍스트 메뉴를 이용해 &quot;내 팟캐스트&quot; 목록을 관리할 수 있습니다.</description>
-        <description lang="lt">Šis priedas leidžia jums naršyti ir ieškoti tūkstančių nemokamai Podcasts [COLOR=red](toliau verčiama kaip - Transliacijos)[/COLOR].[CR]Jis suteikia prieigą prie garso ir vaizdo internetinės medijos failų - kur/katrie kiekvienas suskirstytas į daugiau nei 60 žanrų.Taip pat jūs galite ieškoti konkrečių prenumeruojamų transliacijų pagal pavadinimą.[CR]Taip pat galima valdyti &quot;Mano Transliacijos&quot; sąrašą per kontekstinį meniu.</description>
-        <description lang="nl">Deze add-on laat je zoeken naar duizenden gratis Podcasts.[CR] GEEN itunes voor vereist![CR] het voorziet zowel in audio en video podcasts - elk uitgesplitst in meer dan 60 genres. je kan ook zoeken voor specifieke podcasts op naam[CR]Het is ook mogelijk  om via het context-menu ''Mijn podcasts'' te beheren.</description>
-        <description lang="pl">Wtyczka ta umożliwia ci przeglądanie i szukanie w śród tysięcy darmowych Podcastów.[CR]Posiada zarówno Podcasty audio i video, każde dostępne w ponad 60 gatunkach. Możesz dodatkowo szukać konkretnych Podcastów po nazwie.[CR]Dodatkowo możesz zarządzać listą swoich ulubionych Podcastów poprzez menu kontekstowe.</description>
-        <description lang="pt">Este add-on permite-lhe navegar e procurar por milhares de Podcasts grátis.[CR]Oferece podcasts de áudio e vídeo, divididas em mais de 60 géneros. Pode também procurar por nome podcasts específicas.[CR]É também possível gerir uma lista &quot;Minhas Podcasts&quot; através do menu de contexto.</description>
-        <description lang="pt_BR">Este add-on permite que você navegue e pesquise por milhares de Podcasts grátis.[CR]iTunes NÃO é necessário![CR]Fornece tanto podcasts de áudio quanto de vídeo - cada um dividido em 60 gêneros. Você pode também pesquisar por podcasts específicos por nome.[CR]É possível gerenciar uma lista de &quot;Meus Podcasts&quot; através do menu de contexto.</description>
-        <description lang="sk">Tento doplnok Vám umožní prehliadať a vyhľadávať v tisícoch voľných Podcast-ov.
-Poskytuje audio aj video podcast-y - každý rozdelený do viac než 60 žánrov. Môžete zároveň hľadať konkrétny podcast podľa mena.
-Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&quot;.</description>
-        <description lang="sv">Detta tillägg låter dig bläddra och söka efter tusentals podcasts.[CR]Det tillhandahåller både ljud- och video-podcasts - Var och en indelad i över 60 genres. Du kan också söka efter specifika podcasts genom namn.[CR]Det är också möjligt att hantera &quot;Mina podcasts&quot;-listan via innehållsmenyn.</description>
-        <description lang="zh">本插件可浏览和查找上千个免费播客。[CR]不需要iTunes软件！[CR]支持音频和视频播客 - 均分为60类。你可以按名字搜索播客。[CR]还可以通过上下文菜单管理“我的播客”列表。</description>
-        <disclaimer lang="be">NO iTunes required!</disclaimer>
-        <disclaimer lang="bg">НЕ изисква iTunes!</disclaimer>
-        <disclaimer lang="ca">NO requereix d'iTunes!</disclaimer>
-        <disclaimer lang="da">iTunes er ikke nødvendig!</disclaimer>
-        <disclaimer lang="de">KEIN iTunes benötigt!</disclaimer>
-        <disclaimer lang="el">Δεν απαιτείται ΚΑΝΕΝΑ iTunes!</disclaimer>
-        <disclaimer lang="en">NO iTunes required!</disclaimer>
-        <disclaimer lang="es">iTunes no es necesario!</disclaimer>
-        <disclaimer lang="fi">iTunesia EI vaadita!</disclaimer>
-        <disclaimer lang="fr">AUCUN iTunes obligatoires!</disclaimer>
-        <disclaimer lang="fr_CA">iTunes n'est PAS nécessaire!</disclaimer>
-        <disclaimer lang="gl">Non se require o iTunes!</disclaimer>
-        <disclaimer lang="he">לא נדרש iTunes!</disclaimer>
-        <disclaimer lang="hr">iTunes nije potreban!</disclaimer>
-        <disclaimer lang="hu">iTunes NEM szükséges!</disclaimer>
-        <disclaimer lang="it">iTunes non è necessario!</disclaimer>
-        <disclaimer lang="ko">iTunes 필요 없음!</disclaimer>
-        <disclaimer lang="lt">NO iTunes reikia!</disclaimer>
-        <disclaimer lang="nl">GEEN iTunes vereist!</disclaimer>
-        <disclaimer lang="pl">Nie wymaga iTunes!</disclaimer>
-        <disclaimer lang="pt">O iTunes não é necessário!</disclaimer>
-        <disclaimer lang="pt_BR">iTunes NÃO necessário!</disclaimer>
-        <disclaimer lang="sv">INGEN iTunes krävs!</disclaimer>
-        <disclaimer lang="tr">iTunes gerekli değil!</disclaimer>
-        <disclaimer lang="zh">不需要iTunes软件！</disclaimer>
-    </extension>
 </addon><addon id="plugin.image.xzen" name="XZen" provider-name="bossanova808" version="0.0.9">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -856,28 +689,6 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
         <platform>all</platform>
         <email>tommy@winther.nu</email>
     <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.dr.dk.live" name="Danish Live TV" provider-name="twinther" version="3.1.0">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.buggalo" version="1.1.5"/>
-	</requires>
-	<extension library="addon.py" point="xbmc.python.pluginsource">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Watch Danish Live TV</summary>
-		<summary lang="da">Se dansk Live TV</summary>
-		<description lang="en">Stream a selection of the Danish live channels, including all of DRs channel, some of the TV2/Regions channel, Kanal Sport and Folketinget TV.[CR][CR]If you have comments or suggestions for this addon, please feel free to participate in the debate on my blog at http://tommy.winther.nu</description>
-		<description lang="da">Stream en række danske live kanaler, bl.a. alle DRs kanaler, en del af TV2/Regionernes kanaler samt Kanal Sport og Folketingets kanal.[CR][CR]Har du kommentarer, ris eller ros til denne addon er du velkommen til at deltage i debatten på min blog på http://tommy.winther.nu</description>
-        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws.</disclaimer>
-        <disclaimer lang="da">Nogle dele af denne addon er muligvis ikke lovlig i dit land - kontroller venligst dine lokale love.</disclaimer>
-		<license>GPL 2.0</license>
-		<platform>all</platform>        
-		<language>da</language>
-        <email>tommy@winther.nu</email>
-        <website>http://tommy.winther.nu</website>
-        <source>http://mirrors.xbmc.org/addons/frodo/</source>
-	</extension>
 </addon><addon id="plugin.video.howstuffworks_com" name="HowStuffWorks.com" provider-name="AddonScriptorDE" version="2.0.3">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1038,6 +849,25 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <email>buzz at exotica org uk</email>
     <website>https://github.com/exobuzz/plugin.audio.relive</website>
     <source>http://mirrors.superrepo.org/addons/frodo//</source>
+  </extension>
+</addon><addon id="plugin.video.diy" name="DIY Network" provider-name="divingmule" version="1.0.4">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.common.plugin.cache" version="2.5.2"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Videos from diynetwork.com.</summary>
+    <description>Play full episodes from the Do It Yourself Network, diynetwork.com.</description>
+    <disclaimer>These videos seem to be restricted to the U.S. only.</disclaimer>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <source>http://mirrors.superrepo.org/addons/frodo//</source>
+    <forum>http://forum.xbmc.org/showthread.php?tid=97018</forum>
   </extension>
 </addon><addon id="plugin.audio.real.gr" name="RealFm Podcast" provider-name="lambda" version="2.0.2">
 	<requires>
@@ -1220,22 +1050,6 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <website>http://www.democracynow.org</website>
     <source>http://mirrors.superrepo.org/addons/frodo//</source>
   </extension>
-</addon><addon id="plugin.video.sueddeutsche_de" name="Sueddeutsche.de" provider-name="AddonScriptorDE" version="2.0.2">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="de">Sueddeutsche.de Mediathek</summary>
-        <summary lang="en">Sueddeutsche.de video library</summary>
-        <language>de</language>
-        <description lang="de">Sueddeutsche.de Mediathek</description>
-        <description lang="en">Sueddeutsche.de video library</description>
-    <platform>all</platform>
-    <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.aljazeera" name="Al Jazeera" provider-name="Jonathan Beluch (jbel)" version="1.9.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1298,6 +1112,25 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <description lang="en">Football Replays</description>
     <disclaimer lang="en">By using This Plugin You will receive sometimes an advert which helps funds the developers developing.....we all thank you!!</disclaimer>
     <platform>all</platform>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.dmd-czech.markiza" name="Markiza TV Archiv" provider-name="Jiri Vyhnalek" version="1.6.2">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.dmd-czech.common" version="1.5.0"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>Markiza TV video-archive plugin</summary>
+    <summary lang="cs">Markiza TV - archiv</summary>
+    <description>
+        Plugin to play TV video archive from markiza.sk including archive doma tv and fun tv  
+    </description>
+    <description lang="cs">
+        Plugin pro přehrávání videí z archivu markiza.sk včetně doma tv a fun tv... 
+    </description>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.filmontv" name="FilmOn" provider-name="FilmOn.TV Networks Inc" version="1.4">
   <requires>
@@ -1586,6 +1419,27 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
         Plugin pro přehrávání videí z archivu joj.sk
     </description>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.ardmediathek_de" name="ARD Mediathek" provider-name="AddonScriptorDE" version="2.0.8">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Mediathek</summary>
+        <summary lang="en">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Media Library</summary>
+        <language>de</language>
+        <description lang="de">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Mediathek</description>
+        <description lang="en">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Media Library</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <source>http://mirrors.superrepo.org/addons/frodo//</source>
+        <forum>http://forum.xbmc.org/showthread.php?tid=132563</forum>
+        <email>AddonScriptorDE at yahoo dot de</email>
+        <website>http://www.ardmediathek.de</website>
+    </extension>
 </addon><addon id="plugin.video.dmd-czech.stv" name="STV Archiv" provider-name="Jiri Vyhnalek" version="0.3.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1878,6 +1732,42 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
         <forum>http://forum.xbmc.org/showthread.php?tid=162908</forum>
         <email>N3MIS15@gmail.com</email>
     </extension>
+</addon><addon id="plugin.video.gamestar" name="GamestarVideo" provider-name="Raptor 2101" version="0.1.5">
+  <requires>
+   <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+   <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Downloads/view videos from gamestar.de and gamepro.de</summary>
+    <summary lang="de">Alle Videos von Gamestar.de und Gamepro.de and Gamepro.de durchsuchen und anschauen.</summary>
+    <description lang="en">This plugin gives access to the Videos from gamestar.de and gamepro.de.
+    If there are problems while playing the videos (stoping - caching - playing) this plugin offer some caching options:
+    Don't Chache - don't cache at all.
+    Cache if Needed - if you start a video who isn't cached, it will be cached and then be played.
+    Cache - all files of the given category will be cached.
+    Forced caching - all files of the given category will be cached plus, if some file isn't cached it will be downloaded before playing.
+    
+    The last two modes need a background-skript setuped by Taskmanager or (ana)cron. The script is locatet in the addon-dir: fetchOfflineData.py linktotheconfig.xml BandwithLimit(in kbs)
+    </description>
+    <description lang="de">Mit diesem Plugin kann man alle Videos auf Gamestar.de und Gamepro.de anschauen.
+    SOllte es beim abspielen der Videos zu problemen kommen (precaching mittein im Video) bietet das Plugin die möglichkeit zum lokalen cachen der Videos:
+    Kein Cache - nichts wird gecached.
+    Cachen bei Bedarf - das Video wird vor dem Abspielen lokal gecached
+    Cachen - alle Videos eine Kategorie werden lokal gespeichert.
+    Cachen erzwingen - alle Videos einer Kategorie werden lokal gespiechert. Sollte eine Video noch nicht gecached sein, wird es vor dem abspielen gecached.
+
+    Die beiden letzten Optionen brauchen ein Background-Script das vom Taskplanner oder (ana)cron angestoßen wird. Es ist im Addon-Verzeichniss zu finden: fetchOfflineData.py Pfad-Zur-Config.xml BandbreitenBegrenzung(in kbs)
+    </description>
+    <platform>all</platform>
+    <language>de</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <forum>https://github.com/raptor2101/Gamestar/issues</forum>
+    <website>https://github.com/raptor2101/Gamestar</website>
+    <source>http://mirrors.xbmc.org/addons/frodo/</source>
+    <email>raptor2101@gmx.de</email>
+  </extension>
 </addon><addon id="plugin.audio.abcradionational" name="ABC Radio National" provider-name="Damon Toumbourou" version="1.0.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1940,6 +1830,22 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <website>http://ramfm.org/</website>
     <source>http://mirrors.superrepo.org/addons/frodo//</source>
   </extension>
+</addon><addon id="plugin.image.demotivators.to" name="demotivators.to" provider-name="NuisMons" version="0.0.7">
+  <requires>
+    <import addon="script.module.simplejson" version="2.0.10"/>
+	<import addon="script.module.beautifulsoup"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+    <provides>image</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="en">View demotivators</summary>
+    <description>
+      View demotivators
+    </description> 
+    <license>GPL 2.0</license>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.audio.ramfm" name="RAM FM Eighties Hit Radio" provider-name="spoyser" version="1.0.16">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2234,6 +2140,23 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <description>Anime Vice is the place to go for your anime fix. Watch trailers, reviews, and original anime-related content.</description>
     <source>http://mirrors.superrepo.org/addons/frodo//</source>
   </extension>
+</addon><addon id="plugin.image.dilbert" name="Dilbert" provider-name="RPiola" version="1.1.1">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension library="addon.py" point="xbmc.python.pluginsource">
+        <provides>image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <disclaimer>Tested on raspbmc final only, but it should work on any xbmc; it is a completely UNOFFICIAL plugin, not endorsed by the author of the Dilbert character</disclaimer>
+        <summary lang="en">Display daily Dilbert comic strip</summary>
+        <description lang="en">Dilbert xmbc plugin displays the daily Dilbert comic strip by Scott Adams. All credits to www.dilbert.com</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <language/>
+        <website>http://pi.ilpiola.it/dilbert</website>
+        <email>roberto@ilpiola.it</email>
+    <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.image.garfield" name="Garfield" provider-name="RPiola" version="1.0.0">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -2274,22 +2197,6 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <source>http://mirrors.superrepo.org/addons/frodo//</source>
     <forum/>
   </extension>
-</addon><addon id="plugin.video.filmon" name="FilmOn" provider-name="Mikey1234" version="4.6.1">
-  <requires>
-    <import addon="xbmc.python" version="2.0"/>
-    <import addon="script.module.t0mm0.common" version="1.1.0"/>
-    <import addon="script.module.xbmc.ads" version="1.0.0"/>
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">FilmOn</summary>
-    <language>en de fr es it ru</language>
-    <description lang="en">FilmOn.com is an internet based television provider owned by FilmOn.TV Networks Inc. FilmOn.TV Networks was founded by Alki David in 2006.FilmOn.com subscription packages include access to over 120 streaming TV channels (mostly in English language) in addition to premium FilmOn.com Movie channels and pay-per-view channels</description>
-    <disclaimer lang="en">By using This Plugin You will receive sometimes an advert which helps funds the developers developing.....we all thank you!!</disclaimer>
-    <platform>all</platform>
-  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.image.bancadejornais" name="Banca de Jornais" provider-name="enen92" version="1.0.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2329,6 +2236,21 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <email/>
     <source>http://mirrors.xbmc.org/addons/frodo/</source>
   </extension>
+</addon><addon id="plugin.audio.abradio.cz" name="abradio.cz" provider-name="lzoubek" version="2.0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="script.module.elementtree" version="1.2.7"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="audio">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Listen to abradio.cz</summary>
+    <summary lang="cs">Poslechněte si abradio.cz</summary>
+    <description lang="en">abradio.cz offers most popular czech radio stations.</description>
+    <description lang="cs">abradio.cz nabízí k poslechu nejznámější česká radia.</description>
+    <platform>all</platform>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.dardarkom" name="DARDARKOM MOVIES" provider-name="Bisha" version="1.3.0">
   <requires>
     <import addon="xbmc.python" version="1.1"/>
@@ -2341,6 +2263,24 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <description>DARDARKOM MOVIES plugin, Arabic , Hollywood, European and Bollywood movies </description>
    
     <platform>all</platform>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.classiccinema" name="Classic Cinema" provider-name="Jonathan Beluch (jbel)" version="2.1.2">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="3.3.0"/>
+    <import addon="script.module.beautifulsoup" version="3.2.0"/>
+    <import addon="script.module.xbmcswift2" version="1.3.1"/>
+    <import addon="script.module.requests" version="0.13.2"/>
+  </requires>
+  <extension library="addon.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language/>
+    <summary>Classic Cinema Video Addon</summary>
+    <description>Watch online video movies found at http://www.classiccinemaonline.com.  The site aggregates old movies and tv shows found on google video and archive.org.</description>
+    <disclaimer/>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.filipinotv3" name="Filipino On Demand v3" provider-name="AJ updated by dknight" version="1.0.2">
 	<requires>
