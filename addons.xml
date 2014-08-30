@@ -79,26 +79,6 @@
         <description lang="sv">Med detta tillägg kan du bläddra bland mer än 50.000 fria internetradiostationer. Nuvarande funktioner:[CR]- Topp 500 stationer[CR]- Bläddra efter genre (och undergenre, om det är påslaget i inställningar)[CR]- Sök station efter namn[CR]- Sök stationer som spelar låt[CR]- Du kan hantera &quot;Mina stationer&quot;-lista[CR]- bitrate och antal lyssnare är synligt och sorterbart[CR]- 500 stationer på varje sida (kan ändras i inställningar)[CR]- använder buffert (24 genre, 1 timmes stationlista)</description>
         <description lang="zh">你可以使用本插件浏览超过50.000免费网络电台。当前功能：[CR]- 500强电台[CR]- 按类别浏览（可设置子类）[CR]- 按名字搜索电台[CR]- 按当前播放曲目搜索电台[CR]- 管理“我的电台”-列表[CR]- 按比特率和收听人数排序[CR]- 每页500个电台（可设置）[CR]- 使用缓存（24小时类别，1小时站点列表）</description>
     </extension>
-</addon><addon id="plugin.video.example" name="Example of a Video Addon - [Tutorial]" provider-name="The[COLOR tan]Highway[/COLOR]" version="0.1.0">
-  <requires>
-  	<import addon="xbmc.python" version="2.0"/>
-  	<import addon="script.module.urlresolver" version="2.0.9"/>
-  	<import addon="script.module.t0mm0.common" version="1.0.0"/>
-  	<import addon="script.module.metahandler" version="2.0.3"/>
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
-  	<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary>A tutorial example of to start people off on making a new video addon for xbmc.</summary>
-  	<description>This example has been made for the XBMCHUB community.</description>
-  	<disclaimer lang="en">This Project is designed for xbmc v13.x originally and currently being kept up on one of the nightly xbmcc v13.x builds. It gets a slight bit of testing as I use it myself, a LOT, on a Windows 7 OS. Any other OS's / builds of xbmc have not be tested on yet, but I do feel free to try and test it out on them. Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing. I take no responsibility for any problems this plugin might in any way, form, shape or size cause. This is project is for a LEARNING EXPERIANCE.</disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-  	<forum>http://www.xbmchub.com/forums/</forum>
-  	<website>http://github.com/HIGHWAY99/plugin.video.example/</website>
-  	<email/>
-  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.gamekings" name="GameKings" provider-name="Skipmode A1" version="1.0.4">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -197,6 +177,25 @@
     <description>no</description>
     <platform>all</platform>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.enemy.territory" name="Enemy Territory" provider-name="willforde" version="1.0.3">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="script.module.xbmcutil" version="2.1.0"/>
+	</requires>
+	<extension library="addon.py" point="xbmc.python.pluginsource">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<language>en</language>
+		<platform>all</platform>
+		<summary lang="en">Enemy Territory, Archived Enemy Territory Matchs.</summary>
+		<description lang="en">Enemy Territory, Archived Enemy Territory Matchs.</description>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, June 2007</license>
+		<email>willforde+xbmc@gmail.com</email>
+		<forum>http://forum.xbmc.org/showthread.php?tid=178789</forum>
+		<source>http://mirrors.xbmc.org/addons/frodo/</source>
+		<website>http://enemyterritory.sectornetwork.com/data/playlist_MySQL.php</website>
+	</extension>
 </addon><addon id="plugin.video.itunes_trailers" name="Apple iTunes Trailers" provider-name="Tristan Fischer (sphere@dersphere.de)" version="0.2.2">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -444,6 +443,24 @@ Caratteristiche:[CR]- Guarda i Trailer a  480p/720p/1080p[CR]- Scarica i Trailer
     <source>http://mirrors.superrepo.org/addons/frodo//</source>
     <forum>http://forum.xbmc.org/showthread.php?tid=178562</forum>
   </extension>
+</addon><addon id="plugin.video.galileo-tv.ru" name="[COLOR FF00FF00]Галилео ([/COLOR][COLOR FFFFF000]galileo-tv.ru[/COLOR][COLOR FF00FF00])[/COLOR]" provider-name="Silen" version="1.0.1">
+  <requires>
+    <import addon="xbmc.python" version="1.0"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>my-hit.ru</summary>
+    <description>Галилео - телевизионная развлекательно-познавательная программа канала СТС.
+Выходит с понедельника по пятницу в 17:30. 
+Дайджест «Галилео» можно увидеть по воскресеньям в 11:00.
+Ведущий — Александр Пушной. 
+Производит программу ООО «ГалилеоМедиа» по лицензии и при содействии «Victoria Production» и «SevenOne International». 
+Наш проект является русским вариантом немецкой программы «Galileo» канала ProSieben.
+</description>
+    <platform>all</platform>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.jvcom" name="JeuxVideo.com" provider-name="gormux" version="1.0.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -860,6 +877,28 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
 		<disclaimer lang="en"/>
 		<disclaimer lang="vi"/>
 	<source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.dr.dk.live" name="Danish Live TV" provider-name="twinther" version="3.1.0">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.buggalo" version="1.1.5"/>
+	</requires>
+	<extension library="addon.py" point="xbmc.python.pluginsource">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Watch Danish Live TV</summary>
+		<summary lang="da">Se dansk Live TV</summary>
+		<description lang="en">Stream a selection of the Danish live channels, including all of DRs channel, some of the TV2/Regions channel, Kanal Sport and Folketinget TV.[CR][CR]If you have comments or suggestions for this addon, please feel free to participate in the debate on my blog at http://tommy.winther.nu</description>
+		<description lang="da">Stream en række danske live kanaler, bl.a. alle DRs kanaler, en del af TV2/Regionernes kanaler samt Kanal Sport og Folketingets kanal.[CR][CR]Har du kommentarer, ris eller ros til denne addon er du velkommen til at deltage i debatten på min blog på http://tommy.winther.nu</description>
+        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws.</disclaimer>
+        <disclaimer lang="da">Nogle dele af denne addon er muligvis ikke lovlig i dit land - kontroller venligst dine lokale love.</disclaimer>
+		<license>GPL 2.0</license>
+		<platform>all</platform>        
+		<language>da</language>
+        <email>tommy@winther.nu</email>
+        <website>http://tommy.winther.nu</website>
+        <source>http://mirrors.xbmc.org/addons/frodo/</source>
+	</extension>
 </addon><addon id="plugin.video.howstuffworks_com" name="HowStuffWorks.com" provider-name="AddonScriptorDE" version="2.0.3">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -975,6 +1014,19 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
         <disclaimer>You need a Subsonic server to connect to - check addon settings</disclaimer>
         <platform>all</platform>
     <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.Fluffy" name="FLUFFY ANIME" provider-name="Voinage" version="3.0">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+		
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Stream Anime in HD</summary>
+        
+    <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.ipanda" name="快来看熊猫" provider-name="jindaxia" version="0.0.1">
 	<requires>
 		<import addon="script.module.keyboard.chinese" optional="true" version="1.2.8"/>	
@@ -1046,26 +1098,6 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
 		<disclaimer lang="el">Το πρόσθετο αυτό προσφέρει περιεχόμενο διαθέσιμο στην Ελλάδα.</disclaimer>
 		<platform>all</platform>
 	<source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.floptv" name="FlopTV" provider-name="Nightflyer" version="1.0.3">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <language>it</language>
-    <platform>all</platform>
-    <summary lang="it">Video comici, surreali e umoristici</summary>
-    <summary lang="en">Comic, surreal and humorous videos</summary>
-    <description lang="it">La web tv di ultima generazione dedicata alla comicità, al surreale e all'umorismo. FlopTV è una creazione di FoxFactory e del dipartimento New Media di Fox Channels Italy.</description>
-    <description lang="en">The latest generation of web TV dedicated to comedy and humour. FlopTV is a creation of FoxFactory and New Media department at Fox Channels Italy.</description>
-    <license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
-    <forum>http://forum.xbmc.org/showthread.php?tid=155916</forum>
-    <website>https://github.com/nightflyer73/plugin.video.floptv</website>
-    <email/>
-    <source>http://mirrors.xbmc.org/addons/frodo/</source>
-  </extension>
 </addon><addon id="plugin.audio.npr" name="NPR (National Public Radio)" provider-name="Stieg, Fisslefink" version="2.1.1">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1078,26 +1110,6 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <summary lang="en">NPR (National Public Radio)</summary>
     <description lang="en">All available NPR streams and most podcasts.</description>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.chip_de" name="Chip.de" provider-name="AddonScriptorDE" version="1.0.6">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="de">Computer und Technik Videos</summary>
-        <summary lang="en">Computing and Technology Videos</summary>
-        <language>de</language>
-        <description lang="de">Computer und Technik Videos</description>
-        <description lang="en">Computing and Technology Videos</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>http://mirrors.superrepo.org/addons/frodo//</source>
-        <forum>http://forum.xbmc.org/showthread.php?tid=132563</forum>
-        <email>AddonScriptorDE at yahoo dot de</email>
-        <website>http://www.chip.de</website>
-    </extension>
 </addon><addon id="plugin.video.fernsehkritik_tv" name="Fernsehkritik.tv" provider-name="AddonScriptorDE, Manko10" version="2.1.1">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -1239,25 +1251,6 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
         <description>На этом сервере собраны советские и пост-советские мультфильмы, аудио-сказки, фильмы и детские фильмы на которых выросли многие поколения моих соотечественников.</description>
         <platform>all</platform>
     <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.g4tv" name="G4TV" provider-name="stacked" version="3.0.2">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-	<import addon="script.module.parsedom" version="1.3.0"/>
-	<import addon="script.module.buggalo" version="1.1.2"/>
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">G4TV: The latest in video games - game reviews, trailers, news, cheats, and screenshots.</summary>
-    <description lang="en">G4TV is the one destination on television that feeds your addiction for the latest must-have tech gadgets, web culture and video games.</description>
-    <platform>all</platform>
-	<language>en</language>
-	<website>https://code.google.com/p/plugin</website>
-	<source>http://mirrors.superrepo.org/addons/frodo//</source>
-	<forum>http://forum.xbmc.org/showthread.php?tid=43556</forum>
-	<email>stacked.xbmc@gmail.com</email>
-  </extension>
 </addon><addon id="plugin.video.footballreplays" name="Football Replays" provider-name="Mikey1234" version="1.1.3">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
@@ -1508,18 +1501,19 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <description>With this plugin you'll be able to listen to the all Moroccan radio stations that are broadcasting online.
     </description>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.audio.akado.radio" name="akado.radio" provider-name="HD-Lab Team" version="1.0.5">
-  <requires>
-    <import addon="xbmc.python" version="1.0"/>
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>audio</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary>АКАДО.Радио</summary>
-    <description>АКАДО.Радио</description>
-  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.kino-live.org" name="kino-live.org" provider-name="x86demon" version="1.7.4">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+        <import addon="script.module.beautifulsoup"/>
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource" provides="video">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Фильмы, сериалы с ресурса kino-live.org</summary>
+        <description>Фильмы, сериалы с ресурса kino-live.org</description>
+        <platform>all</platform>
+    <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.bmovies" name="B-Movies" provider-name="the-one" version="0.1.2">
   <requires>
     <import addon="xbmc.python" version="2.0"/>
@@ -1579,27 +1573,6 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
         Plugin pro přehrávání videí z archivu joj.sk
     </description>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.ardmediathek_de" name="ARD Mediathek" provider-name="AddonScriptorDE" version="2.0.8">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension library="default.py" point="xbmc.python.pluginsource">
-        <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="de">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Mediathek</summary>
-        <summary lang="en">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Media Library</summary>
-        <language>de</language>
-        <description lang="de">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Mediathek</description>
-        <description lang="en">Das Erste, Einsfestival, EinsPlus, Phoenix, WDR, SWR, HR, MDR, NDR, RBB, BR, ... Media Library</description>
-        <disclaimer lang="en">Some parts of this addon may not be legal in your country of residence - please check with your local laws before installing.</disclaimer>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <source>http://mirrors.superrepo.org/addons/frodo//</source>
-        <forum>http://forum.xbmc.org/showthread.php?tid=132563</forum>
-        <email>AddonScriptorDE at yahoo dot de</email>
-        <website>http://www.ardmediathek.de</website>
-    </extension>
 </addon><addon id="plugin.video.dmd-czech.stv" name="STV Archiv" provider-name="Jiri Vyhnalek" version="0.3.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -1866,6 +1839,25 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <email/>
     <source>http://mirrors.xbmc.org/addons/frodo/</source>
   </extension>
+</addon><addon id="plugin.audio.jazzradio.com" name="JazzRadio.com" provider-name="qualisoft.dk - Tim C. Steinmetz" version="3.0.0">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension library="default.py" point="xbmc.python.pluginsource">
+		<provides>audio</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+        <language>en</language>
+		<license>GPL 2.0</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=144627</forum>
+    	<website>http://qualisoft.dk</website>
+		<source>http://mirrors.xbmc.org/addons/frodo/</source>
+   		<summary lang="en">JazzRadio.com</summary>
+		<description lang="en">
+			Presenting jazz radio channels for your enjoyment. Listen for free and enjoy countless hours of the best jazz music around
+		</description>
+	</extension>
 </addon><addon id="plugin.video.gametrailerscom" name="GameTrailers.com" provider-name="David Gray (N3MIS15)" version="1.0.3">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -2001,6 +1993,32 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     </description> 
     <license>GPL 2.0</license>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.attactv" name="attac tv" provider-name="Jose Antonio Montes (jamontes)" version="1.1.7">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="plugin.video.youtube" version="4.4.1"/>
+        <import addon="plugin.video.bliptv" version="1.8.1"/>
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">ATTAC TV. Another TV is possible.</summary>
+        <description lang="en">ATTAC is an international organization involved in the alter-globalization movement. They oppose neo-liberal globalization and develop social, ecological, and democratic alternatives so as to guarantee fundamental rights for all. Specifically, they fight for the regulation of financial markets, the closure of tax havens, the introduction of global taxes to finance global public goods, the cancellation of the debt of developing countries, fair trade, and the implementation of limits to free trade and capital flows.[CR]This plugin allows to watch the videos and documentals provided by the ATTAC TV site.</description>
+        <summary lang="es">ATTAC TV. Otra TV es posible.</summary>
+        <description lang="es">ATTAC es una organización internacional involucrada en el movimiento altermundialista, que combate la mundialización liberal y trabaja por alternativas sociales, ecológicas y democráticas con el objetivo de garantizar los derechos fundamentales de todos. ATTAC lucha muy especialmente por la regulación de los mercados financieros, el cierre de los paraísos fiscales, la introducción de un impuesto global para financiar los bienes públicos mundiales, la anulación de la deuda exterior de los países en desarrollo, un comercio justo y la aplicación efectiva de límites al libre cambio y los movimientos de capitales.[CR]Este plugin permite ver los videos y documentales altermundistas de ATTAC TV.</description>
+        <summary lang="fr">ATTAC TV. Une autre TV est possible.</summary>
+        <description lang="fr">ATTAC est une organisation internationale impliquée dans le mouvement altermondialiste, qui combat la mondialisation libérale et qui travaille à des alternatives sociales, écologiques et démocratiques afin de garantir les droits fondamentaux pour tous. ATTAC lutte notamment pour la régulation des marchés financiers, la fermeture des paradis fiscaux, l'introduction de taxe globale pour financer les biens publics mondiaux, l'annulation de la dette des pays en développement, un commerce équitable et la mise en place de limites au libre-échange et aux mouvements de capitaux.[CR]Ce plugin permet de regarder les vidéos qui se trouve sur le site web de ATTAC TV.</description>
+        <summary lang="de">ATTAC TV. Ein weiterer TV ist möglich.</summary>
+        <description lang="de">ATTAC ist eine internationale Organisation, die zur globalisierungskritischen Bewegung gehört. Wir kämpfen gegen die freie Globalisierung und arbeiten an sozialen, ökologischen und demokratischen Alternativen, um die Grundrechte für alle zu sichern. Wir setzen uns im Besonderen für die Regulierung der Finanzmärkte ein, für die Schließung der Steuerparadiese, die Einführung einer globalen Abgabe zur weltweiten Finanzierung des Allgemeinguts, für die Streichung aller Schulden der Entwicklungsländer, für einen gerechten Handel und die Einführung von Grenzwerten für den freien Handel und Kapitalbewegungen.[CR]Dieses plugin erlaubt es, die videos und documentals aus dem ATTAC TV website zu sehen.</description>
+        <language>en es fr de</language>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=155306</forum>
+        <source>http://mirrors.xbmc.org/addons/frodo/</source>
+        <website>http://www.attac.tv/</website>
+        <mail/>
+    </extension>
 </addon><addon id="plugin.audio.ramfm" name="RAM FM Eighties Hit Radio" provider-name="spoyser" version="1.0.16">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2164,6 +2182,20 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <description>Watch CBC programs like live sports. Sadly no scraper. Calls web browser.</description>
     <platform>all</platform>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.audio.afl-radio" name="AFL Radio" provider-name="Andy Botting" version="0.4">
+	<requires>
+		<import addon="xbmc.python" version="1.0"/>
+	</requires>
+	<extension library="default.py" point="xbmc.python.pluginsource">
+		<provides>audio</provides>
+	</extension>
+  <extension library="default.py" point="xbmc.addon.metadata">
+    <summary>AFL Radio by Andy Botting</summary>
+    <description>Listen to the best radio coverage from the AFL's official radio broadcasters right here, LIVE.</description>
+    <provides>audio</provides>
+    <platform>all</platform>
+    <license>GPL 3</license>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.dmi.dk" name="DMI TV Vejrudsigt" provider-name="twinther" version="2.0.1">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
@@ -2291,63 +2323,6 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <description lang="en">Watch movies and tv-shows online for free.[CR][CR][COLOR orange]Support[/COLOR] @ [COLOR blue]www.[B]XUNITYTALK[/B].com[/COLOR][CR][CR][COLOR orange][B]Credits[/B][/COLOR][CR]     [COLOR blue]azad720:[/COLOR] Artwork (Icons and Fanart)</description>	
     <platform>all</platform>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.image.dilbert" name="Dilbert" provider-name="RPiola" version="1.1.1">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension library="addon.py" point="xbmc.python.pluginsource">
-        <provides>image</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <disclaimer>Tested on raspbmc final only, but it should work on any xbmc; it is a completely UNOFFICIAL plugin, not endorsed by the author of the Dilbert character</disclaimer>
-        <summary lang="en">Display daily Dilbert comic strip</summary>
-        <description lang="en">Dilbert xmbc plugin displays the daily Dilbert comic strip by Scott Adams. All credits to www.dilbert.com</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <language/>
-        <website>http://pi.ilpiola.it/dilbert</website>
-        <email>roberto@ilpiola.it</email>
-    <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.image.garfield" name="Garfield" provider-name="RPiola" version="1.0.0">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-    <extension library="addon.py" point="xbmc.python.pluginsource">
-        <provides>image</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <disclaimer>Tested on raspbmc final only, but it should work on any xbmc; it is a completely UNOFFICIAL plugin, not endorsed by the author of the Garfield character, Jim Davis, or www.gocomics.com</disclaimer>
-        <summary lang="en">Display daily Garfield comic strip</summary>
-        <description lang="en">Garfield xmbc plugin displays the daily Garfield comic strip. All credits to www.garfield.com</description>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <language/>
-        <website>http://pi.ilpiola.it/garfield</website>
-        <email>roberto@ilpiola.it</email>
-    <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
-</addon><addon id="plugin.video.flw.outdoors" name="FLW Outdoors" provider-name="divingmule" version="1.0.2">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.common.plugin.cache" version="2.5.2"/>
-    <import addon="plugin.video.youtube" version="4.4.6"/>
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-  </requires>
-  <extension library="default.py" point="xbmc.python.pluginsource">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary>Fishing Shows from FLW Outdoors On Demand</summary>
-    <description>
-        FLW is the premier tournament fishing organization that provides
-        unparalleled fishing resources and entertainment to our anglers,
-        sponsors, fans and host communities.
-    </description>
-    <platform>all</platform>
-    <language>en</language>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <source>http://mirrors.superrepo.org/addons/frodo//</source>
-    <forum/>
-  </extension>
 </addon><addon id="plugin.image.bancadejornais" name="Banca de Jornais" provider-name="enen92" version="1.0.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2387,6 +2362,34 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <email/>
     <source>http://mirrors.xbmc.org/addons/frodo/</source>
   </extension>
+</addon><addon id="plugin.audio.abradio.cz" name="abradio.cz" provider-name="lzoubek" version="2.0.1">
+  <requires>
+    <import addon="xbmc.python" version="2.0"/>
+    <import addon="script.module.elementtree" version="1.2.7"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource" provides="audio">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Listen to abradio.cz</summary>
+    <summary lang="cs">Poslechněte si abradio.cz</summary>
+    <description lang="en">abradio.cz offers most popular czech radio stations.</description>
+    <description lang="cs">abradio.cz nabízí k poslechu nejznámější česká radia.</description>
+    <platform>all</platform>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.dardarkom" name="DARDARKOM MOVIES" provider-name="Bisha" version="1.3.0">
+  <requires>
+    <import addon="xbmc.python" version="1.1"/>
+  </requires>
+  <extension library="default.py" point="xbmc.python.pluginsource">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>DARDARKOM MOVIES Arabic plugin</summary>
+    <description>DARDARKOM MOVIES plugin, Arabic , Hollywood, European and Bollywood movies </description>
+   
+    <platform>all</platform>
+  <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.classiccinema" name="Classic Cinema" provider-name="Jonathan Beluch (jbel)" version="2.1.2">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2405,6 +2408,20 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
     <description>Watch online video movies found at http://www.classiccinemaonline.com.  The site aggregates old movies and tv shows found on google video and archive.org.</description>
     <disclaimer/>
   <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.deluxemusic" name="Deluxemusic" provider-name="membrane" version="0.4">
+    <requires>
+        <import addon="xbmc.python" version="1.0"/>
+    </requires>
+    <extension library="default.py" point="xbmc.python.pluginsource">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="de">Deluxemusic - Music Television</summary>
+        <summary lang="en">Deluxemusic - Music Television</summary>
+        <description lang="de">Deluxemusic - Music Television</description>
+        <description lang="en">Deluxemusic - Music Television</description>
+    <source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
 </addon><addon id="plugin.video.filipinotv3" name="Filipino On Demand v3" provider-name="AJ updated by dknight" version="1.0.2">
 	<requires>
 		<import addon="xbmc.python" version="2.0"/>
@@ -2434,6 +2451,24 @@ Zároveň môžete cez kontextové menu spravovať zoznam &quot;Moje Podcast-y&q
 		<platform>all</platform>
 		<license>GNU GPL v3</license>
 	<source>http://mirrors.superrepo.org/addons/frodo/</source></extension>
+</addon><addon id="plugin.video.gameone" name="Gameone" provider-name="liquex, membrane" version="2.0.3">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension library="default.py" point="xbmc.python.pluginsource">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<language>de</language>
+		<source>http://mirrors.xbmc.org/addons/frodo/</source>
+		<forum>http://forum.xbmc.org/showthread.php?tid=186309</forum>
+		<license>GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007</license>
+		<summary lang="de">Gameone</summary>
+		<description lang="de">Inhalte von gameone.de ansehen: TV Folgen, Blog, Playtube, Podcasts</description>
+		<summary lang="en">Gameone</summary>
+		<description lang="en">Watch german contents from gameone.de: TV Episodes, Blog, Playtube, Podcasts</description>
+	</extension>
 </addon><addon id="plugin.video.dmd-czech.huste" name="Huste TV Archiv" provider-name="Jiri Vyhnalek" version="0.5.0">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
